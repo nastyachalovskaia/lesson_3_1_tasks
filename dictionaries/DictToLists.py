@@ -17,5 +17,5 @@ def dict_to_lists(my_dict):
 
 user_input = MyDictUtils.user_input()
 
-res = dict_to_lists(user_input())
+res = dict_to_lists(user_input)
 print(res)

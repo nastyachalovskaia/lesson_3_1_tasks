@@ -15,5 +15,5 @@ def extract_subdict(my_dict, keys):
     return new_dict
 
 user_input = MyDictUtils.user_input()
-key_s = input("Введите желаемые ключи: ")
+key_s = input("Введите желаемые ключи через запятую: ")
 print(extract_subdict(user_input, key_s))

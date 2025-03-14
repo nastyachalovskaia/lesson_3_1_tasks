@@ -13,7 +13,7 @@ def is_anagram(s1, s2):
             position += 1
         else:
             matches = False
-        return matches
+    return matches
 
 user_input_1 = input("Введите строку1: ").casefold()
 user_input_2 = input("Введите строку2: ").casefold()

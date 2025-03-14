@@ -3,7 +3,7 @@
 
 def is_unique(s):
     set_s = set(s)
-    return True if len(s) == len(set_s) else False
+    return len(s) == len(set_s)
 
 user_input = input("Введите строку: ").replace(" ", "")
 unique = is_unique(user_input)
