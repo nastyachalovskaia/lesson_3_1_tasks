@@ -2,7 +2,6 @@
 # которая принимает строку из 10 цифр и возвращает её в формате (XXX) XXX-XXXX.
 
 def format_phone_number(digits):
-
     formatted_phone = f"({digits[0:3]}) {digits[3:6]}-{digits[6:10]}"
     return formatted_phone
 

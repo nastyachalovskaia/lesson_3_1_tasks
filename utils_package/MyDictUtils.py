@@ -6,4 +6,5 @@ def user_input():
         key = input("Введите ключ: ")
         value = input("Введите значение: ")
         my_dict[key] = value
+
     return my_dict

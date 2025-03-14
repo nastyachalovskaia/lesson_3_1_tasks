@@ -6,16 +6,14 @@
 # - Верните список с результатами сложения.
 
 def merge_lists(list1, list2):
-    def check_length():
-        return True if len(list1) == len(list2) else False
-    is_length_equal = check_length()
+    is_length_equal = len(list1) == len(list2)
     if is_length_equal:
         return [x + y for x, y in zip(list1, list2)]
     else:
         return "Попробуйте снова ввести два списка одной длины"
 
-user_input = input("Введите первый список: ")
-user_input_2 = input("Введите второй список: ")
+user_input = input("Введите первый список чисел через запятую: ")
+user_input_2 = input("Введите второй список чисел через запятую: ")
 
 items_1 = [int(x.strip()) for x in user_input.split(",")]
 items_2 = [int(x.strip()) for x in user_input_2.split(",")]

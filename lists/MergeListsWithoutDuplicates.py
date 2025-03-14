@@ -8,7 +8,7 @@ def merge_lists(list1, list2):
     list2 = list(list2)
     new_list = list1.copy()
     new_list.extend(list2)
-    res = set(new_list)
+    res = list(set(new_list))
     return res
 
 user_input = input("Введите строку 1: ")
